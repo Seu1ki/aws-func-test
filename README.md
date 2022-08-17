@@ -51,6 +51,6 @@ $ cat /proc/meminfo
 $ lscpu
 ```
 **Error:**
-When we enter the command ``` lscpu ```, we got the msg:
+When we entered the command ``` lscpu ```, we got the msg:
 > failed to determine number of CPUs: /sys/devices/system/cpu/possible: No such file or directory
 
