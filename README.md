@@ -1,11 +1,18 @@
 ## Serverless Latency Test at AWS (Lambda)
-Invoke 4 functions at ServerlessBench:Testcase8-Function-size <https://github.com/SJTU-IPADS/ServerlessBench.git>.
+Create four functions at ServerlessBench:Testcase8-Function-size <https://github.com/SJTU-IPADS/ServerlessBench.git> and one default function for comparison (baseline).
+
+* aws-default (169.0B, - )
 * aws-pkg20 (22.7MB,imported)
 * aws-pkg50 (44.1MB, imported)
 * aws-size20 (22.7MB, not imported)
 * aws-size50 (44.1MB, not imported)
 
 ### Step 1. Vanilla Test
+* aws-default
+```
+[COLD] REPORT RequestId: 7906061a-33a0-4d38-8f98-d7996fbcf6eb	Duration: 1.48 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 36 MB	Init Duration: 111.64 ms	
+[WARM] REPORT RequestId: ece55784-3f18-48af-9494-988be0f3dd01	Duration: 1.75 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 36 MB	
+```
 * aws-pkg20
 ```
 [COLD] REPORT RequestId: 18e21600-187a-4b7e-8239-9c34ec7412a2	Duration: 1.74 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 46 MB	Init Duration: 164.31 ms   	
