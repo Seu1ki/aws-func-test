@@ -49,7 +49,18 @@ Also, run the same command on AWS EC2(t3.medium) for comparison.
 $ cat /proc/cpuinfo
 $ cat /proc/meminfo
 $ lscpu
+$ dmesg |grep -i hypervisor
 ```
+**Error:**
+When we entered the command ```dmesg |grep -i hypervisor```, we got the msg:
+> dmesg: read kernel buffer failed: Operation not permitted
+
+
+On the other hand, EC2 gave us 
+> [    0.000000] Hypervisor detected: KVM
+
+
+
 **Error:**
 When we entered the command ``` lscpu ```, we got the msg:
 > failed to determine number of CPUs: /sys/devices/system/cpu/possible: No such file or directory
