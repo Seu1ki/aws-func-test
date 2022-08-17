@@ -1,0 +1,1 @@
+{"errorMessage": "Unable to import module '/home/ec2-user/ServerlessBench/Testcase8-Function-size/aws_pkg20': No module named '/home/ec2-user/ServerlessBench/Testcase8-Function-size/aws_pkg20'", "errorType": "Runtime.ImportModuleError", "stackTrace": []}

@@ -1,0 +1,28 @@
+{
+    "FunctionName": "my-function",
+    "FunctionArn": "arn:aws:lambda:ap-northeast-1:849314417965:function:my-function",
+    "Runtime": "python3.7",
+    "Role": "arn:aws:iam::849314417965:role/skkim-lambda-role",
+    "Handler": "/home/ec2-user/ServerlessBench/Testcase8-Function-size/aws_pkg20.py",
+    "CodeSize": 23781109,
+    "Description": "",
+    "Timeout": 3,
+    "MemorySize": 128,
+    "LastModified": "2022-08-16T08:00:31.058+0000",
+    "CodeSha256": "3ljrytPsDBuieTE8b3wy7SBTbAN8/2NeqahfbqEj3uc=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "fa7b8d53-6fbe-40a8-a6bc-ee3a93f46af9",
+    "State": "Pending",
+    "StateReason": "The function is being created.",
+    "StateReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    }
+}
