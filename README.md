@@ -59,7 +59,7 @@ $ dmesg |grep -i hypervisor
 When we entered the command ```whoami```,
 
 AWS Lambda answers:
-> sbx_userXXXX
+> sbx_user1051
 
 AWS EC2 answers:
 > ec2-user
