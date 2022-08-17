@@ -42,6 +42,9 @@ Create four functions at ServerlessBench:Testcase8-Function-size <https://github
 [WARM] REPORT RequestId: 66bacb60-8a44-4bf0-860b-f8d56705a9d1	Duration: 1.26 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 36 MB	
 ```
 
+### Step 2. ECS Fargate Test
+** TO DO **
+
 ## Reveal the Execution Environment
 Create bash function, and run the command below on different environments env A and env B. 
 Also, run the same command on AWS EC2(t3.medium) for comparison.
