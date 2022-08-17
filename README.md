@@ -48,9 +48,19 @@ Also, run the same command on AWS EC2(t3.medium) for comparison.
 ```bash
 $ cat /proc/cpuinfo
 $ cat /proc/meminfo
+$ cat /etc/os-release
+$ whoami
 $ lscpu
 $ dmesg |grep -i hypervisor
 ```
+When we entered the command ```whoami```,
+
+AWS Lambda answers:
+> sbx_userXXXX
+ans, AWS EC2 answers:
+> ec2-user
+
+
 **Error:**
 When we entered the command ```dmesg |grep -i hypervisor```, we got the msg:
 > dmesg: read kernel buffer failed: Operation not permitted
