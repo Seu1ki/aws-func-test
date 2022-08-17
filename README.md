@@ -57,10 +57,11 @@ When we entered the command ```whoami```,
 
 AWS Lambda answers:
 > sbx_userXXXX
-ans, AWS EC2 answers:
+
+AWS EC2 answers:
 > ec2-user
 
-
+---
 **Error:**
 When we entered the command ```dmesg |grep -i hypervisor```, we got the msg:
 > dmesg: read kernel buffer failed: Operation not permitted
