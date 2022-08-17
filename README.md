@@ -43,12 +43,12 @@ Create four functions at ServerlessBench:Testcase8-Function-size <https://github
 ```
 
 ## Reveal the Execution Environment
-Create bash function, and run the command below on different environments.
+Create bash function, and run the command below on different environments env A and env B. 
+Also, run the same command on AWS EC2(t3.medium) for comparison.
 ```bash
 $ cat /proc/cpuinfo
 $ cat /proc/meminfo
 $ lscpu
-$ lspci
 ```
 **Error:**
 When we enter the command ``` lscpu ```, we got the msg:
