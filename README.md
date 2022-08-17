@@ -11,6 +11,7 @@ Create four functions at ServerlessBench:Testcase8-Function-size <https://github
 * aws-default
 ```
 [COLD] REPORT RequestId: 7906061a-33a0-4d38-8f98-d7996fbcf6eb	Duration: 1.48 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 36 MB	Init Duration: 111.64 ms	
+[COLD] REPORT RequestId: 2e99be9b-c25e-4dd0-bfdc-d8f379524847	Duration: 14.05 ms	Billed Duration: 15 ms	Memory Size: 128 MB	Max Memory Used: 35 MB	Init Duration: 116.63 ms	
 [WARM] REPORT RequestId: ece55784-3f18-48af-9494-988be0f3dd01	Duration: 1.75 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 36 MB	
 ```
 * aws-pkg20
@@ -41,4 +42,15 @@ Create four functions at ServerlessBench:Testcase8-Function-size <https://github
 [WARM] REPORT RequestId: 66bacb60-8a44-4bf0-860b-f8d56705a9d1	Duration: 1.26 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 36 MB	
 ```
 
+## Reveal the Execution Environment
+Create bash function, and run the command below on different environments.
+```bash
+$ cat /proc/cpuinfo
+$ cat /proc/meminfo
+$ lscpu
+$ lspci
+```
+**Error:**
+When we enter the command ``` lscpu ```, we got the msg:
+> failed to determine number of CPUs: /sys/devices/system/cpu/possible: No such file or directory
 
