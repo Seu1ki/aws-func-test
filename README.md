@@ -27,7 +27,7 @@ Invoke 4 functions at ServerlessBench:Testcase8-Function-size <https://github.co
 > REPORT RequestId: 66bacb60-8a44-4bf0-860b-f8d56705a9d1	Duration: 1.26 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 36 MB	
 
 
-<span style="color:red;background-color:#ffdce0;"> REPORT RequestId: 66bacb60-8a44-4bf0-860b-f8d56705a9d1	Duration: 1.26 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 36 MB	</span>
+<span style="color:red"> REPORT RequestId: 66bacb60-8a44-4bf0-860b-f8d56705a9d1	Duration: 1.26 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 36 MB	</span>
 
 
 
