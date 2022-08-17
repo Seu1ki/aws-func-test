@@ -46,9 +46,9 @@ Create four functions at ServerlessBench:Testcase8-Function-size <https://github
 Create bash function, and run the command below on different environments env A and env B. 
 Also, run the same command on AWS EC2(t3.medium) for comparison.
 ```bash
-$ cat /proc/cpuinfo
-$ cat /proc/meminfo
-$ cat /etc/os-release
+$ cat /proc/cpuinfo	-> logs/cpuinfo.diff
+$ cat /proc/meminfo	-> logs/meminfo.diff
+$ cat /etc/os-release	-> logs/os-release.diff
 $ whoami
 $ lscpu
 $ dmesg |grep -i hypervisor
