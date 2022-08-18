@@ -53,7 +53,7 @@ $ docker build -t <docker-username>/<repository>:<version> .
 $ docker push <docker-username>/<repository>:<version> .
 
 ```
-(TO DO: Implement HTTPs in Dockerfile
+**TO DO: Implement HTTPs in Dockerfile**
 
 The http request processing has not yet been implemented in dockerfile, and after this, it is possible to test the load balancing by connecting the port.)
 
