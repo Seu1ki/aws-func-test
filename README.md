@@ -45,6 +45,7 @@ Create four functions at ServerlessBench:Testcase8-Function-size <https://github
 ### Step 2. ECS Fargate Test
 AWS ECS Fargate needs Dockerfile, which call the python handler. 
 At ```/src/docker```, there are Dockerfile, aws-pkg handler (aws_pkg20.py), and invoker (aws_handler.py). 
+
 To test Fargate, first create an aws_pkg repository in the docker hub, and then create a docker image with the command below.
 ```bash
 $ cd /src/docker
@@ -52,6 +53,9 @@ $ docker build -t <docker-username>/<repository>:<version> .
 $ docker push <docker-username>/<repository>:<version> .
 
 ```
+(TO DO: Implement HTTPs in Dockerfile
+
+The http request processing has not yet been implemented in dockerfile, and after this, it is possible to test the load balancing by connecting the port.)
 
 ## Reveal the Execution Environment
 Create bash function, and run the command below on different environments env A and env B. 
